@@ -1,16 +1,16 @@
 {
-    "name": "staticcode",
-    "version": "1.0.0",
-    "main": "app.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-      "express": "^4.15.2",
-      "pug": "^3.0.2"
-    },
-    "description": ""
+  "name": "node-static-site",
+  "version": "1.0.0",
+  "description": "project-9",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15",
+    "pug": "^3.0.2"
   }
+}
