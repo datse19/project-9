@@ -1,0 +1,23 @@
+extends layout.pug
+
+block content
+
+  article.portfolio-intro
+
+    //- Replace with your own heading like 'My Portfolio', or 'Hey, Potential Employers', or 'Let's make the web great together!' 
+    h1 My Portfolio
+
+    //- Replace with a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
+    p This portfolio contains some of the projects that i built throughout my time with Treehouse using some of the most popular technologies widely used.
+
+
+
+  article.portfolio-project-thumbs
+    .projects-box.box.grid
+
+      each project in projects
+        .cell
+          a(href='/projects/${project.id}')
+            img.thumbnail(src='${project.images}', alt='project.project_name')
+            h5= `${project.project_name}`
+

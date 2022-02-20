@@ -1,0 +1,79 @@
+{
+    "projects": [
+        {
+            "id": 0, 
+            "project_name": "Random Quote Generator", 
+            "description": "An application that provides random quotes after clicking a button or after a certain amount of time.",
+            "technologies": [
+                "Html",
+                "CSS",
+                "Javascript"
+            ],
+            "live_link": "https://datse19.github.io/project-4/",
+            "github_link":"https://github.com/datse19/project-4",
+            "thumbnail": "/static/image/random-quote-1.png",
+            "image_urls":["/static/image/random-quote-2.png"]
+        }, 
+        {
+            "id": 1, 
+            "project_name": "Word Guessing Game", 
+            "description": "A word guessing game similar to wheel of fortune where the user has a finite amount of lives to guess the correct words",
+            "technologies": [
+                "Html",
+                "CSS",
+                "Javascript"
+            ], 
+            "live_link":"https://datse19.github.io/project-5/",
+            "github_link":"https://github.com/datse19/project-5",
+            "thumbnail": "/static/image/word-game-1.png",
+            "image_urls":["/static/image/word-game-2.png", 
+                          "/static/image/word-game-3.png"
+            ]
+        },
+        {
+            "id": 2, 
+            "project_name": "Data Pagination and Filtering with JavaScript", 
+            "description": "A site that uses pagnation to enhance the usability of student data in directory form",
+            "technologies":[
+                "Html",
+                "CSS",
+                "Javascript"
+            ],
+            "live_link":"https://datse19.github.io/project-6/",
+            "github_link":"https://github.com/datse19/project-6",
+            "thumbnail":"/static/image/directory-1.png",
+            "image_urls":["/static/image/directory-2.png"]
+        },
+        {
+            "id": 3, 
+            "project_name": "Interactive Registration Form", 
+            "description": "An interactive form that is user-friendly and indicates if the proper fields are filled out prior to submitting",
+            "technologies":[
+                "Html",
+                "CSS",
+                "Javascript"
+            ],
+            "live_link":"https://datse19.github.io/project-7/",
+            "github_link":"https://github.com/datse19/project-7",
+            "thumbnail":"/static/image/registration-1.png", 
+            "image_urls":["/static/image/registration-2.png"]
+        }, 
+        {
+            "id": 4, 
+            "project_name": "Public API/Employee Directory", 
+            "description": "An employee directory create via a third-party API displaying employee information and images with overlay when employee is selected",
+            "technologies": [
+                "Html",
+                "CSS",
+                "Javascript",
+                "AJAX",
+                "Fetch API"
+            ],
+            "live_link":"https://datse19.github.io/project-8/",
+            "github_link":"https://github.com/datse19/project-8",
+            "thumbnail": "/static/image/employee-1.png",
+            "image_urls": ["/static/image/employee-2.png",
+                           "/static/image/employee-3.png"]
+        } 
+    ]
+}
