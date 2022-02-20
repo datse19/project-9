@@ -1,4 +1,3 @@
-
 const express = require('express');
 const data = require('./data.json');
 
@@ -32,8 +31,7 @@ app.get('/projects/:id', (req, res, next) => {
     }
 });
 
-//error handlers
-//404 handler in app.js
+//error handler
 app.use((req, res, next) => {
     const err = new Error();
     err.status = 404;
@@ -41,7 +39,7 @@ app.use((req, res, next) => {
     next(err);
 });
 
-//global error handler. referenced error handling in express workshop on treehouse
+//global error handler.
 app.use((req, res, next) => {
     if (err.status === 404) {
         res.status(404).render('page-not-found', err);
@@ -55,5 +53,5 @@ app.use((req, res, next) => {
 
 //listner/host
 app.listen(3000, () => {
-    console.log('The app is running on port 3000');
+    console.log('The app is running on localhost:3000');
 });
