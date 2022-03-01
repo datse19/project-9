@@ -26,10 +26,8 @@ block content
         a.btn-link(href=`${project.github_link}` target='_blank') GitHub Repo
 
     .project-img-box.box
-      
-      each image in project.image_urls 
-        if image != project.image_urls[0]
-          img.project-img(src=`${image}`, alt=`${project.description}`)
+      each url, i in project.image_urls 
+        img.project-img(src=`${project.image_urls[i]}`, alt=`Additional ${project.project_name} image`)
 
     nav.nav
       a(href='/')
