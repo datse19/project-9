@@ -8,12 +8,12 @@
                 "Html",
                 "CSS",
                 "Javascript"
-            ],
-            "live_link": "https://datse19.github.io/project-4/",
+            ], 
+            "live_link":"https://datse19.github.io/project-4/",
             "github_link":"https://github.com/datse19/project-4",
             "thumbnail": "/static/image/random-quote-1.png",
             "image_urls":["/static/image/random-quote-2.png"]
-        }, 
+        },
         {
             "id": 1, 
             "project_name": "Word Guessing Game", 
