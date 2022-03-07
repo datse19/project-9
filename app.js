@@ -25,7 +25,7 @@ app.get('/projects/:id', (req, res, next) => {
     const project = projects[id];
 
     if (project) {
-        res.render('project', {project});
+        res.render('project', { project });
     } else {
         next();
     }
